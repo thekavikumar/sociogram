@@ -5,6 +5,6 @@ app.get("/", function (req, res) {
   res.send("Hello World");
 });
 
-var server = app.listen(3001, function () {
+app.listen(3001, function () {
   console.log("Backend listening at http://localhost:3001");
 });
